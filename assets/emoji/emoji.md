@@ -1152,7 +1152,7 @@ This cheat sheet is automatically generated from [GitHub Emoji API](https://api.
 | [top](#objects) | :lock: | `:lock:` | :unlock: | `:unlock:` | [top](#table-of-contents) |
 | [top](#objects) | :lock_with_ink_pen: | `:lock_with_ink_pen:` | :closed_lock_with_key: | `:closed_lock_with_key:` | [top](#table-of-contents) |
 | [top](#objects) | :key: | `:key:` | :old_key: | `:old_key:` | [top](#table-of-contents) |
-
+ 
 #### Tool
 
 | | ico | shortcode | ico | shortcode | |
