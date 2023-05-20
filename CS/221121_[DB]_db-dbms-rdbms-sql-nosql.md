@@ -1,7 +1,9 @@
 # DB, DBMS, RDBMS, SQL, noSQL이란?
 
 ---
-<img width="50%" style="left: 25%; position: relative;" src="../assets/img/db.png">
+<p align="center">
+<img width="50%" src="../assets/img/db.png">
+</p>
 
 ---
 
@@ -51,8 +53,7 @@
    - 부분적 데이터베이스 손실이 전체 시스템을 정지한다.
 
 ### 2-3. DBMS의 종류
-<img width="100%" style="padding-left: 30px;" src="../assets/img/221121_1.png">
-<figcaption style="padding-left: 30px; text-align: center;">https://hongong.hanbit.co.kr/데이터베이스-이해하기-databasedb-dbms-sql의-개념/</figcaption>
+![missing](../assets/img/221121_1.png)*https://hongong.hanbit.co.kr/데이터베이스-이해하기-databasedb-dbms-sql의-개념/*
 
 <br>
 
