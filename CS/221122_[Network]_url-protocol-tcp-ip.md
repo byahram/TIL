@@ -11,9 +11,10 @@
 
 ## URL(Uniform Resource Locator)
 
-![missing](../assets/img/221122_2.png)*https://www.javatpoint.com/what-is-domain*
+![missing](../assets/img/221122_1.png)*https://www.javatpoint.com/what-is-domain*
 
-* 접속 주소 : www.google.com -> 142.250.206.196  ![missing](../assets/img/221122_3.png)
+![missing](../assets/img/221122_3.png)
+* 접속 주소 : www.google.com -> 142.250.206.196
 * Protocol : http/https 지원하는지 안하는지 확인 필요
   - 웹 서버 : http 또는 https를 통해 웹 브라우저에서 요청하는 HTML문서나 오브젝트(이미지 파일등)을 전송해주는 서비스 프로그램
 * 포트 : 80(http default), 443(https default) 할당이 되어 있는지
