@@ -15,7 +15,7 @@
 
 <https://github.com/byahram/2022-webs/tree/main/study/javascript/NomadCoderVanilaJS>
 
-### 2-1 Your First JS Function
+### 2-1. Your First JS Function
 ```javascript
 function sayHello() {
     console.log("Hello!");
@@ -37,7 +37,7 @@ function sayHello(name, age) {
 sayHello("Nicolas", 15);        // Hello! Nicolas you have 15 years of age.
 ```
 
-### 2-1-1 More Function Fun
+### 2-1-1. More Function Fun
 * ""
 * ''
 * `` (backtick)
@@ -65,7 +65,7 @@ const plus = calculator.plus(5, 5);
 console.log(plus);
 ```
 
-### 2-2 JS DOM Functions
+### 2-2. JS DOM Functions
 * DOM (Document Object Module) : HTML을 DOM객체로 바꿀 수 있다.
 ```javascript
 <h1 id="title">This works!</h1>        // HTML
@@ -79,7 +79,7 @@ title.innerHTML = "Hi! From JS";
 <h1 id="title">Hi! From JS</h1>
 ```
 
-### 2-3 Modifying the DOM with JS
+### 2-3. Modifying the DOM with JS
 * JS로 document의 객체 등을 수정할 수 있다.
 * querySelector은 노드의 첫번째 자식을 반환한다.
 ```javascript
@@ -99,7 +99,7 @@ const title2 = document.querySelector("#title");
 // id -> #
 ```
 
-### 2-4 Events and Event Handlers
+### 2-4. Events and Event Handlers
 * Event: 웹사이트에서 발생하는 이벤트 (ex. click, resize, submit, input, change, before, printing...)
 ```javascript
 function handleResize() {
@@ -121,7 +121,7 @@ const title = document.querySelector("#title");
 title.addEventListener("click", handleClick);
 ```
 
-### 2-5 조건문 : If, else, and, or
+### 2-5. 조건문 : If, else, and, or
 * && : two or more conditions should be true
   * true && true = true;
   * false && true = false;
@@ -159,7 +159,7 @@ if(age >= 18 && age <= 21) {
 }
 ```
 
-### 2-6 DOM If else Function Practice
+### 2-6. DOM If else Function Practice
 ```javascript
 const title = document.querySelector("#title");
 
@@ -199,7 +199,7 @@ window.addEventListener("offline", handleOffLine);        // wift off
 window.addEventListener("offline", handleOnline);        // wift on
 ```
 
-### 2-7 DOM If else Function Practice part 2
+### 2-7. DOM If else Function Practice part 2
 * className gets and sets the value of the class attribute of the specified element
 ```javascript
 const title = document.querySelector("#title");
