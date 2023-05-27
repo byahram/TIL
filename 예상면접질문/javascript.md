@@ -25,8 +25,6 @@
 
 </details>
 
-<br>
-
 ### 타입스크립트란
 <details>
   <summary>Click me</summary>
