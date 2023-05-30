@@ -49,6 +49,6 @@ https://nodejs.org/ko/download/
 
 ![missing](../assets/img/220917_3.png) *\<Visual Studio Code\>*
 
-![missing](../assets/img/220917_4.png) *\<Visual Studio Code\>*
+![missing](../assets/img/220917_4.png)
 
 <br>
