@@ -43,29 +43,18 @@ https://nodejs.org/ko/download/
 
 나는 Visual Studio Code라는 에디터를 사용해서 react-app이라는 프로젝트에 create-react-app을 설치했다. 이어서 'npm start'라는 명령어를 실행하면 react 개발 환경이 실행되면서 코딩을 할 수 있는 환경이 만들어진다.
 
-<figure align="center">
-<img width="100%" src="../assets/img/220917_1.png">
-<figcaption style="text-align:center;">npx create-react-app . 실행</figcaption>
-</figure>
+![missing](../assets/img/220917_1.png) *npx create-react-app . 실행*
 
 <br>
 
-<figure align="center">
-<img width="100%" src="../assets/img/220917_2.png">
-<figcaption style="text-align:center;">npm start 실행</figcaption>
-</figure>
+![missing](../assets/img/220917_2.png) *npm start 실행*
 
 <br>
 
-<figure align="center">
-<img width="80%" src="../assets/img/220917_3.png">
-<figcaption style="text-align:center;">Visual Studio Code</figcaption>
-</figure>
+![missing](../assets/img/220917_3.png) *\<Visual Studio Code\>*
 
 <br>
 
-<figure align="center">
-<img width="100%" src="../assets/img/220917_4.png">
-</figure>
+![missing](../assets/img/220917_4.png)
 
 <br>
