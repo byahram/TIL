@@ -48,15 +48,21 @@ https://nodejs.org/ko/download/
 <figcaption style="text-align:center;">npx create-react-app . 실행</figcaption>
 </figure>
 
+<br>
+
 <figure align="center">
 <img width="100%" src="../assets/img/220917_2.png">
 <figcaption style="text-align:center;">npm start 실행</figcaption>
 </figure>
 
+<br>
+
 <figure align="center">
 <img width="80%" src="../assets/img/220917_3.png">
 <figcaption style="text-align:center;">Visual Studio Code</figcaption>
 </figure>
+
+<br>
 
 <figure align="center">
 <img width="100%" src="../assets/img/220917_4.png">
