@@ -11,7 +11,7 @@
 
 ## URL(Uniform Resource Locator)
 
-![missing](../assets/img/221122_1.png)*https://www.javatpoint.com/what-is-domain*
+![missing](../assets/img/221122_2.png)*https://www.javatpoint.com/what-is-domain*
 
 ![missing](../assets/img/221122_3.png)
 * 접속 주소 : www.google.com -> 142.250.206.196
