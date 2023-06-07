@@ -1,0 +1,150 @@
+# JSON이란?
+
+---
+<p align="center">
+<img width="50%" src="../assets/img/js.png">
+</p>
+
+---
+
+<br>
+
+## JSON(JavaScript Object Notation)이란?
+JSON이란 JavaScript Object Notation의 약어로 데이터를 저장하고나 전송할 때 많이 사용되는 경량의 데이터 교환 형식이다. JavaScript에서 객체를 만들 때 사용하는 표현식이다. JSON은 데이터 포맷일 뿐이며 어떠한 통신 방법도, 프로그래밍 문법도 아닌 단순히 데이터를 표시하는 표현 방법일 뿐이다.
+* 클라이언트와 서버 간의 http 통신을 돕는 데이터 포맷이고 JSON은 클라이언트가 요청하는 객체를 serialize 해서 { key : value } 타입의 string으로 만들고, 서버와 통신하는데 이용한 다음 deserialize를 거쳐 다시 객체로 변환해 클라이언트에 원하는 데이터를 제공하여 브라우저에 보여주는 것이다.
+
+<br>
+
+## JSON의 특징
+* 서버와 클라이언트 간의 교류에서 일반적으로 많이 사용된다.
+* 자바스크립트 객체 표기법과 아주 유사하다.
+* 자바스크립트를 이용하여 JSON 형식의 문서를 쉽게 객체로 변환할 수 있다.
+* JSON 문서 형식은 자바스크립트 객체의 형식을 기반으로 만들어졌다.
+* 자바스크립트의 문법과 유사하지만 텍스트 형식일 뿐이다.
+* 다른 프로그래밍 언어를 이용해서도 쉽게 만들 수 있다.
+* 특정 언어에 종속되지 않으며, 대부분의 프로그래밍 언어에서 JSON 포맷의 데이터를 핸들링할 수 있는 라이브러리를 지공한다.
+
+<br>
+
+## JSON의 두 가지 Method
+1. **JSON.stringify()** : 객체를 JSON 포맷의 문자열로 변환한다. 클라이언트가 서버로 객체를 전송하려면 객체를 문자열화 해야 하는데 이를 serializing이라고 부른다.
+2. **JSON.parse()** : JSON 포맷의 문자열을 객체로 변환하는 메서드다. 서버로부터 클라이언트에 전달된 JSON은 문자열이고, 객체로서 사용하려면 객체화 과정이 필요한데 이 과정을 deserializing이라고 부른다.
+
+```javascript
+// EXAMPLE 1
+
+// 1. Object to JSON
+
+const obj = {
+	name: 'Kim',
+  	age: 28,
+  	hobby: ['traveling', 'climbing']
+};
+ 
+// obj 객체를 JSON 포맷으로 변환 
+const json = JSON.stringify(obj);
+console.log(json, typeof json);  // {"name":"Kim","age":28,"hobby":["traveling","climbing"]} string
+ 
+// 원하는 value만 받아오기 
+console.log(JSON.stringify(obj, ['age']));  // {"age":28}
+ 
+// 들여쓰기 적용 
+const json2 = JSON.stringify(obj, null, 2);
+console.log(json2);
+
+/* {
+  "name": "Kim",
+  "age": 28,
+  "hobby": [
+    "traveling",
+    "climbing"
+  ]
+} */
+
+// 2. JSON to Object
+const parsed = JSON.parse(json2);
+console.log(parsed, typeof parsed); 
+// { name: 'Kim', age: 28, hobby: [ 'traveling', 'climbing' ] } object
+```
+```javascript
+// EXAMPLE 2
+
+// 1. Array to JSON
+
+const array = [
+	{ id: 1, title: 'HTML', content: 'html' },
+    { id: 2, title: 'CSS', content: 'css' },
+    { id: 3, title: 'JavaScript', content: 'javascript' },
+];
+
+const arrayToJson = JSON.stringify(array, null, 2);
+console.log(arrayToJson);
+
+/* [
+  {
+    "id": 1,
+    "title": "HTML",
+    "content": "html"
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "content": "css"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "content": "javascript"
+  }
+] */
+
+// 2. JSON to Array
+const JsonToArray = JSON.parse(arrayToJson);
+console.log(JsonToArray, typeof JsonToArray);
+
+/* [
+  { id: 1, content: 'HTML', completed: false },
+  { id: 2, content: 'CSS', completed: false },
+  { id: 3, content: 'JavaScript', completed: true }
+] object */
+```
+
+<br>
+
+## JSON과 XML의 차이
+JSON 표현식은 사람과 기계 모두 이해하기 쉬우며 용량이 적어서 최근에는 JSON이 XML을 대체해서 데이터 전송 등에 많이 사용한다.
+```json
+// JSON Example
+{ "employees" : [
+	{ "firstName":"John", "lastName":"Doe" },
+    { "firstName":"Anna", "lastName":"Smith" },
+    { "firstName":"Peter", "lastName":"Jones" }
+]}
+```
+```xml
+// XML Example
+<employees>
+	<employee>
+    	<firstName>John</firstName> <lastName>Doe</lastName>
+        <firstName>Anna</firstName> <lastName>Smith</lastName>
+        <firstName>Peter</firstName> <lastName>Johns</lastName>
+    </employee
+</employees>
+```
+
+|항목|XML|JSON|
+|--|--|--|
+| 메타 데이터의 비중<br>(메타 데이터 실질 데이터 외에 추가되는 외적인 정보들) | 높음 (XML 태그 때문) | 낮음 |
+| 파싱(Parsing)의 편의성 | 낮음<br>(SAX, DOM, Reader 모두 JSON과 비교했을 때 불편합) | 높음<br>(JSON 문서를 '객체'나 '다중 배열'로 즉각 변환 가능) |
+| 파싱(Parsing) 성능 | 상대적으로 낮음 | 상대적으로 높음 |
+| 인자 및 응답 데이터 형식의 문서화 | 일반 범용 문서 형식 및 XML 전용 문서 형식인 XSD(XML Schema Definition)로 작성 가능 | 일반 범용 문서 형식으로 작성됨.<br>XSD와 유사한 JSON Schema도 있으나 아직 Draft 단계로 거의 사용되지 않음 |
+| 인자 및 응답 데이터의 형식 정의 | 강함<br>(값의 형식과 항목의 구조에 대한 명확한 정의가 가능) | 약함<br>(값의 형식과 항목의 구조에 대한 명확한 정의가 어려움) |
+| 인자 및 응답 데이터의 형식 검증 | 편리함<br>(임의의 XML 문서를 XSD 문서를 통해 자동화된 검증 가능) | 불편함<br>(수동적으로 값의 형식 및 항목의 구조에 대하여 검증해야 함) |
+
+<br>
+
+## :zap: 참조
+* <https://jee-young.tistory.com/52>
+* <https://usefultoknow.tistory.com/entry/JSON이란-무엇일까>
+
+<br>
