@@ -1,4 +1,4 @@
-# Cascading System이란?
+# CSS Selectors 종류와 사용 방법
 
 ---
 <p align="center">
@@ -9,7 +9,7 @@
 
 <br>
 
-## CSS Cascade란?
+## CSS Selector이란
 CSS는 선택자를 잡아 HTML 요소에 스타일을 준다. CSS가 선택자를 잡는 기준을 5가지로 나눌 수 있다.
 
 <https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Selectors>
