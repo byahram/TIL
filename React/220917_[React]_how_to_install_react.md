@@ -9,7 +9,10 @@
 
 <br>
 
-## 1. 온라인 플레이 그라운드 사용하기
+## React 개발 환경 구축 설치하기
+<https://reactjs.org/>
+
+### 1. 온라인 플레이 그라운드 사용하기
 내 컴퓨터에 React 개발 환경을 세팅하지 않고 아래와 같은 온라인 서비스를 이용하는 방법이다.
 * <https://codepen.io/>
 * <https://codesandbox.io/s/new>
@@ -17,7 +20,7 @@
 
 <br>
 
-## 2. 개발 환경 구축하기
+### 2. 개발 환경 구축하기
 나는 Create React App이라는 툴체인을 사용해서 환경을 구축했다.
 
 아래 사이트에서 Create React App에 관한 상세 설명을 확인할 수 있다.
@@ -27,7 +30,7 @@
 
 <br>
 
-### 프로젝트를 만들기 위해
+#### 프로젝트를 만들기 위해
 ```
 npx create-react-app (project name)
 ```
@@ -43,17 +46,27 @@ https://nodejs.org/ko/download/
 
 나는 Visual Studio Code라는 에디터를 사용해서 react-app이라는 프로젝트에 create-react-app을 설치했다. 이어서 'npm start'라는 명령어를 실행하면 react 개발 환경이 실행되면서 코딩을 할 수 있는 환경이 만들어진다.
 
-![missing](../assets/img/220917_1.png) *npx create-react-app . 실행*
+```
+npx create-react-app .
+```
 
-<br>
+![missing](../assets/img/220917_1.png) 
 
-![missing](../assets/img/220917_2.png) *npm start 실행*
+```
+npm start
+```
 
-<br>
+![missing](../assets/img/220917_2.png)
 
-![missing](../assets/img/220917_3.png) *\<Visual Studio Code\>*
+```
+\<Visual Studio Code\>
+```
 
-<br>
+![missing](../assets/img/220917_3.png)
+
+```
+완성!
+```
 
 ![missing](../assets/img/220917_4.png)
 
