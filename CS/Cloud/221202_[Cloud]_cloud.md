@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-<img width="50%" src="../assets/img/cloud_aws.png">
+<img width="50%" src="../../assets/img/cloud_aws.png">
 </p>
 
 ---
@@ -24,7 +24,7 @@
 
 클라우드는 네트워크를 통해 사용할 수 있고, 클라우드 컴퓨팅은 Client 단에서는 입/출력만 이루어지고, 정보 분석 및 처리, 저장, 관리, 유통 등의 작업은 클라우드 공간에서 이루어지는 형태로 동작한다. 따라서 사용자 단에서는 단순 입/출력만 하게 되므로 신경 쓸 것이 없다.
 
-![missing](../assets/img/221202_2.png) *Cloud Computing Image*
+![missing](../../assets/img/221202_2.png) *Cloud Computing Image*
 
 <br>
 
@@ -59,7 +59,7 @@
 * 서비스로서의 기능 (Function-as-a-Service, FaaS)
   * FaaS는 이벤트 기반 실행 모델로서, 개발자가 인프라를 유지관리하지 않고도 애플리케이션 및 기능을 구축, 실행 및 관리할 수 있도록 지원한다.
 
-![missing](../assets/img/221202_3.jpg)
+![missing](../../assets/img/221202_3.jpg)
 
 <br>
 
