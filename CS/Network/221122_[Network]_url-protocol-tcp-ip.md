@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-<img width="50%" src="../assets/img/network_protocol.png">
+<img width="50%" src="../../assets/img/network_protocol.png">
 </p>
 
 ---
@@ -11,9 +11,9 @@
 
 ## URL(Uniform Resource Locator)
 
-![missing](../assets/img/221122_2.png)*https://www.javatpoint.com/what-is-domain*
+![missing](../../assets/img/221122_2.png)*https://www.javatpoint.com/what-is-domain*
 
-![missing](../assets/img/221122_3.png)
+![missing](../../assets/img/221122_3.png)
 * 접속 주소 : www.google.com -> 142.250.206.196
 * Protocol : http/https 지원하는지 안하는지 확인 필요
   - 웹 서버 : http 또는 https를 통해 웹 브라우저에서 요청하는 HTML문서나 오브젝트(이미지 파일등)을 전송해주는 서비스 프로그램
@@ -61,7 +61,7 @@
 ">https://mangkyu.tistory.com/15
 </a>
 
-![missing](../assets/img/221122_4.png)*https://velog.io/@hidaehyunlee/TCP-와-UDP-의-차이*
+![missing](../../assets/img/221122_4.png)*https://velog.io/@hidaehyunlee/TCP-와-UDP-의-차이*
 
 <br>
 
@@ -78,3 +78,5 @@
   - 컴퓨터 네트워크에서 장치들이 서로를 인식하고 통신을 하기 위해서 사용하는 특수한 번호이다.
   - 네트워크에 연결된 장치가 라우터이든 일반 서버이든, 모든 기계는 이 특수한 번호를 가지고 있어야 한다. 이 번호를 이용하여 발신자를 대신하여 메시지가 전송되고 수신자를 향하여 예정된 목적지로 전달된다.
   - 우리가 일반적으로 말하는 ip는 ip주소를 뜻하기도 한다.
+
+<br>
