@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-<img width="50%" src="../assets/img/db.png">
+<img width="50%" src="../../assets/img/db.png">
 </p>
 
 ---
@@ -53,7 +53,7 @@
    - 부분적 데이터베이스 손실이 전체 시스템을 정지한다.
 
 ### 2-3. DBMS의 종류
-![missing](../assets/img/221121_1.png)*https://hongong.hanbit.co.kr/데이터베이스-이해하기-databasedb-dbms-sql의-개념/*
+![missing](../../assets/img/221121_1.png)*https://hongong.hanbit.co.kr/데이터베이스-이해하기-databasedb-dbms-sql의-개념/*
 
 ### 2-4. DBMS의 분류
  - 계층형(Hierarchical)
