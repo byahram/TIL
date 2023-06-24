@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-<img width="50%" src="../assets/img/cloud_aws.png">
+<img width="50%" src="../../assets/img/cloud_aws.png">
 </p>
 
 ---
@@ -11,9 +11,9 @@
 
 ## Monolithic Architecture
 
-![missing](../assets/img/221124_1.png)*http://clipsoft.co.kr/wp/blog/마이크로서비스-아키텍처msa-개념/*
+![missing](../../assets/img/221124_1.png)*http://clipsoft.co.kr/wp/blog/마이크로서비스-아키텍처msa-개념/*
 
-![missing](../assets/img/221124_2.png)*https://steady-coding.tistory.com/595*
+![missing](../../assets/img/221124_2.png)*https://steady-coding.tistory.com/595*
 
 모놀리식 아키텍처는 마이크로서비스(MSA) 아키텍처에 반대되는 개념으로, 애플리케이션의 모든 구성 요소가 한 프로젝트에 통합되어 있는 형태를 말한다. 전체 애플리케이션이 하나로 되어있어서 보통 동일한 개발 툴을 사용해 개발되며, 베포 및 테스트도 하나의 애플리케이션만 수행하면 되기 때문에 개발 및 환경설정이 간단하다. 또한 각 컴포넌트들이 함수로 호출되기때문에 성능에 제약이 덜하고 운영 관리가 용이하다. 이런 장점때문에 작은 볼륨의 시스템을 개발할 때는 매우 유용하지만 시스템이 커지고 시작하고 여러 컴포넌트들이 더해지며 문제가 발생한다.
 
@@ -39,9 +39,9 @@
 
 ## MSA (Micro Service Architecture)
 
-![missing](../assets/img/221124_3.png)*http://clipsoft.co.kr/wp/blog/마이크로서비스-아키텍처msa-개념/*
+![missing](../../assets/img/221124_3.png)*http://clipsoft.co.kr/wp/blog/마이크로서비스-아키텍처msa-개념/*
 
-![missing](../assets/img/221124_4.png)*https://steady-coding.tistory.com/595*
+![missing](../../assets/img/221124_4.png)*https://steady-coding.tistory.com/595*
 
 단일 프로그램을 각 컴포넌트 별로 나누어 작은 서비스의 조합으로 구축하는 방법이다. 다른 말로 하나의 큰 애플리케이션을 여러 개의 작은 애플리케이션으로 쪼개어 변경과 조합이 가능하도록 만든 형태를 말한다. 아직까지는 많은 소프트웨어가 Monolithic 형태로 구현되어 있고, 소규모 프로젝트에는 Monolithic Architecture가 훨씬 합리적인데 간단한 Architecture이고 유지보수가 용이하기 때문이다. 하지만 규모가 커지고 많은 개발자가 투입되는 프로젝트 및 서비스에서는 Monolithic Architecture은 한계가 되서 MSA가 필요한 이유이다. 서비스나 프로젝트가 크고, 복잡하고, 장기적으로 운영될수록, MSA의 장점이 더욱 드러난다.
 
@@ -61,3 +61,5 @@
 
 ## :zap: 참조 
 * <a href="https://steady-coding.tistory.com/595">https://steady-coding.tistory.com/595</a>
+
+<br>
