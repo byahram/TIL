@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-<img width="50%" src="../assets/img/cloud_aws.png">
+<img width="50%" src="../../assets/img/cloud_aws.png">
 </p>
 
 ---
