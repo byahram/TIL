@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-<img width="50%" src="../assets/img/cloud_aws.png">
+<img width="50%" src="../../assets/img/cloud_aws.png">
 </p>
 
 ---
@@ -17,7 +17,7 @@ Docker는 소프트웨어를 컨테이너라는 표준화된 유닛으로 패키
 ### Docker를 사용해야 하는 이유
 Docker를 사용하면 코드를 더 빨리 전달하고, 애플리케이션 운영을 표준화하고, 코드를 원활하게 이동하고, 리소스 사용률을 높여 비용을 절감할 수 있다.
 
-![missing](../assets/img/221129_1.png)
+![missing](../../assets/img/221129_1.png)
 
 ### Docker | 컨테이너
 컨테이너는 이미지를 실행하여 시작이 된다. 
@@ -45,14 +45,16 @@ Docker를 사용하면 코드를 더 빨리 전달하고, 애플리케이션 운
 
 이러한 방식은 컨테이너 방식보다 많은 메모리와 자원을 소모하게 된다.
 
-![missing](../assets/img/221129_2.png)
+![missing](../../assets/img/221129_2.png)
 
 ### Docker | 동작 구조
 
-![missing](../assets/img/221129_3.png)
+![missing](../../assets/img/221129_3.png)
 
 ### Docker | :zap: 참고
 * Docker 소프트웨어 : <a href="https://www.docker.com/">https://www.docker.com/</a>
 * Docker 오픈소스 커뮤니티 : <a href="https://forums.docker.com/">https://forums.docker.com/</a>
 * Docker Hub : <a href="https://hub.docker.com/">https://hub.docker.com/</a>
 * <a href="https://khj93.tistory.com/entry/Docker-Docker-%EA%B0%9C%EB%85%90">https://khj93.tistory.com/entry/Docker-Docker-%EA%B0%9C%EB%85%90</a>
+
+<br>
