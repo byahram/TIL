@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-<img width="50%" src="../assets/img/network_protocol.png">
+<img width="50%" src="../../assets/img/network_protocol.png">
 </p>
 
 ---
@@ -33,7 +33,7 @@
 
 ## CRUD (데이터 처리) vs HTTP method
 
-![missing](../assets/img/221130_1.png)
+![missing](../../assets/img/221130_1.png)
 
 * create - post ( 서버에 저장, 생성 / 무조건 서버가 작동 )
 * read - get   ( parameter를 보내는 것은 검색 조건이다. 서버에 저장하는 것이 아니다. )
