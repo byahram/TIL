@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-<img width="50%" src="../assets/img/general_computer.png">
+<img width="50%" src="../../assets/img/etc.png">
 </p>
 
 ---
