@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-<img width="50%" src="../assets/img/network_protocol.png">
+<img width="50%" src="../../assets/img/network_protocol.png">
 </p>
 
 ---
@@ -14,7 +14,7 @@
 
 이렇게 하면 하드웨어 비용을 획기적으로 줄일 수 있습니다. 그리고 전세계 어디에서든지 접속이 가능한 인터넷이라는 매체의 특성상 지역에 제한을 받지 않게됩니다.
 
-![missing](../assets/img/221122_1.png)
+![missing](../../assets/img/221122_1.png)
 
 위의 사진처럼 웹 서비스는 크게 두 단계로 나뉜다.
 
@@ -24,3 +24,5 @@
    * 사용자가 검색한 Domain을 DNS 서버로 보내 DNS 서버에서 해당하는 IP를 받아오고 그 IP로 웹 서버에 접속을 한다.
 2. 두번째로 문서의 위치를 찾는 것이다.
    * DNS에서 해당하는 IP를 받아와 웹 서버에 접속을 했으면 IP에 맞는(해당하는) 특정한 폴더에 있는 문서나 오브젝트(이미지 파일들..)을 Http/Https 통신 프로토콜을 사용해서 받아오는 것이다.
+
+<br>
