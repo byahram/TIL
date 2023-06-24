@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-<img width="50%" src="../assets/img/network_protocol.png">
+<img width="50%" src="../../assets/img/network_protocol.png">
 </p>
 
 ---
@@ -20,9 +20,9 @@
 
 ## OSI 7layer & TCP/IP 4layer
 
-![missing](../assets/img/221123_1.png)*https://shlee0882.tistory.com/110*
+![missing](../../assets/img/221123_1.png)*https://shlee0882.tistory.com/110*
 
-![missing](../assets/img/221123_2.png)*https://mangkyu.tistory.com/15*
+![missing](../../assets/img/221123_2.png)*https://mangkyu.tistory.com/15*
 
 ### 1. 물리 계층 (Physical Layer)
 * 통신 케이블, 라우터 스위치 등을 통해 전기 신호를 사용하여 비트 스트림을 전송하는 계층이다.
@@ -70,3 +70,5 @@
 
 ### :zap: 주요 포트와 서비스 등 상세한 정보를 얻고 싶다면!!!
 <a href="https://onecoin-life.com/19">https://onecoin-life.com/19</a>
+
+<br>
