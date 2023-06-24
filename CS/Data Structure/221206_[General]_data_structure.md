@@ -2,7 +2,7 @@
 
 ---
 <p align="center">
-<img width="50%" src="../assets/img/general_computer.png">
+<img width="50%" src="../../assets/img/general_computer.png">
 </p>
 
 ---
@@ -57,7 +57,7 @@ Algorithm(알고리즘)은 어떤 문제를 해결하기 위해 정해진 일련
 <br>
 
 ## 자료구조의 분류
-![missing](../assets/img/221206_1.png)
+![missing](../../assets/img/221206_1.png)
 
 <br>
 
