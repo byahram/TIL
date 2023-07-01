@@ -1,4 +1,4 @@
-# GSAP Basic - Tweening Basic
+# GSAP Basic - Timelines
 
 ---
 <p align="center">
