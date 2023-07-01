@@ -60,7 +60,7 @@ tl.to(".grey", {duration: 1, x: 200, scale: 2, y: 20});
 ### 4. Controlling Animations
 tween을 컨트롤 할 수 있는 method를 제공한다.
 
-<https://codepen.io/byahram/pen/oNQWyxo>
+#### :point_right: 실습 예제 : <https://codepen.io/byahram/pen/oNQWyxo>
 
 <br>
 
