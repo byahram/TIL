@@ -157,5 +157,6 @@ $php artisan serve
 ## :zap: 참조
 * <https://rninche01.tistory.com/entry/01-개발환경-구축>
 * <https://starpia.tistory.com/13>
+* <https://squareinven.tistory.com/49>
 
 <br>
