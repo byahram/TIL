@@ -2,12 +2,12 @@
 
 <br>
 
-- [Gsap](/gsap/)
-- [JavaScript](/javascript/)
-- [React](/react/)
-- [Next](/next/)
-- [React Native](/react-native/)
-- [Vue/Nuxt](/vue-nuxt/)
-- [신입교육](/신입교육/)
+### [1. Gsap](/gsap/README.md)
+### [2. JavaScript](/javascript/README.md)
+### [3. React](/react/README.md)
+### [4. Next](/next/README.md)
+### [5. React Native](/react-native/README.md)
+### [6. Vue/Nuxt](/vue-nuxt/README.md)
+### [7. 신입교육](/신입교육/README.md)
 
 <br>
