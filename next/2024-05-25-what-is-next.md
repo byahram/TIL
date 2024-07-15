@@ -1,4 +1,4 @@
-# Next.js 시작하기 - 환경설정 및 디렉토리 구조
+# Next.js란?
 
 - <https://nextjs.org/>
 
@@ -16,29 +16,5 @@ React의 SSR(Server Side Rendering)을 쉽게 구현할 수 있게 도와 주는
 |CSR|SSR|
 |:--:|:--:|
 |![missing](../assets/img/2024/20240525_6.png)|![missing](../assets/img/2024/20240525_7.png)| 
-
-<br>
-
-## 환경 세팅
-
-### npx create-next-app <프로젝트 이름>
-
-```sh
-$ npx create-next-app <프로젝트 이름>
-or
-$ npx create-next-app@latest <프로젝트 이름>
-```
-
-### 'src/' directory 사용 O
-
-![missing](../assets/img/2024/20240525_1.png)
-
-![missing](../assets/img/2024/20240525_2.png)
-
-### 'src/' directory 사용 X
-
-![missing](../assets/img/2024/20240525_3.png)
-
-![missing](../assets/img/2024/20240525_5.png)
 
 <br>
