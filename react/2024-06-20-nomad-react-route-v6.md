@@ -498,7 +498,7 @@ export default App;
 
 ## 8. useOutletContext
 
-1.
+### Ex1
 
 ```js
 // Users.tsx
@@ -539,7 +539,7 @@ function Followers() {
 export default Followers;
 ```
 
-2.
+### Ex2
 
 ```js
 // Root.tsx
